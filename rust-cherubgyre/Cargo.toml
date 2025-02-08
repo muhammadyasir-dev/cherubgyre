@@ -1,0 +1,10 @@
+[package]
+name = "rust-cherubgyre"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = { version = "0.5", features = ["headers"] }
+tokio = { version = "1", features = ["full"] }
+tower-http = { version = "0.3", features = ["cors"] }
+dotenv = "0.15"
